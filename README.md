@@ -64,12 +64,12 @@
 
 <h3>Screenshot</h3>
 
-<img src="https://github.com/malakyazbek-cs/restaurant-landing-page/edit/main/image_of_project.png" alt="Restaurant Landing Page" width="800">
+<img src="image_of_project.jpeg" alt="Restaurant Landing Page" width="800">
 
 <h3>Project Demo</h3>
 
 <p>
-  <a href="https://github.com/malakyazbek-cs/restaurant-landing-page/edit/main/video_of_project.mp4">
+  <a href="video_of_project.mp4">
     View the project demo video
   </a>
 </p>
