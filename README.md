@@ -1,6 +1,6 @@
 <h1>Restaurant Landing Page</h1>
 
-<p align="center">
+<p>
 A simple restaurant landing page built with HTML and CSS as my first web development project. It’s a small project, but I built it completely without AI and learned a lot through practice, especially creating the header, working with spacing, and structuring the page layout.
 </p>
 
