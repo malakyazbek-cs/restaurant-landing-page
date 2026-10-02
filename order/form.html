@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title> ORDER </title>
+    <link rel="icon" href="logo.png">
+    <link rel="stylesheet" href="formstyle.css" >
+</head>
+<body>
+    <form id="order" action="https:mmmm.php" method="post">
+        <div id="formm">
+        <fieldset>
+        <legend> Order Now !! </legend>
+            <label> <h1> Name : </h1> 
+            <input id="m" type="text" name="Name" maxlength="30" required > </label> 
+            <label> <h1> Address : </h1> 
+            <input id="m" type="text" name="Address" maxlength="40" required > </label> 
+            <label> <h1> Email : </h1> 
+            <input id="m" type="email" name="email" maxlength="30" required > </label> <br>
+            <h1> What do you want to order ?? </h1>
+            <div id="big" >
+            <div  id="b" ><label><input type="checkbox" name="order" value="beef" > <p id="h" > Original Beef Burger </p> </label> </div>
+            <div  id="b" ><label><input type="checkbox" name="order" value="chicken" > <p id="h" > Original Chicken Burger </p> </label> </div>
+            <div  id="b" ><label> <input type="checkbox" name="order" value="bacon" > <p id="h" > Original Bacon Burger </p> </label> </div>
+            <div  id="b" > <label><input type="checkbox" name="order" value="cheesebeef" > <p id="h" > Cheese Beef Burger </p> </label> </div>
+            <div  id="b" ><label><input type="checkbox" name="order" value="cheesechicken" > <p id="h" > Cheese Chicken Burger </p> </label> </div>
+            <div  id="b" > <label><input type="checkbox" name="order" value="cheesebacon" > <p id="h" > Cheese Bacon Burger </p> </label> </div>
+            <div  id="b" ><label><input type="checkbox" name="order" value="turkey" > <p id="h" > Turkey Burger </p> </label> </div>
+            <br> </div>
+            <h1> How do you want to pay ? </h1>
+            <label><input type="radio" name="payment" value="credit-card" required > <p id="c"> Credit Card </p> </label>
+            <label><input type="radio" name="payment" value="cash" required > <p id="c"> Cash on Delivery </p> </label>
+            <label><input type="radio" name="payment" value="paypal" required > <p id="c"> PayPal </p> </label> 
+            <br>
+            <input type="submit" value="Order" name="orders" >
+        </fieldset>
+        </div>
+    </form> 
+</body>
+</html>

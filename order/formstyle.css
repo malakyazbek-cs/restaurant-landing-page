@@ -1,0 +1,120 @@
+body
+{
+    background: url(bg.png);
+    background-repeat: repeat ;
+    background-size:contain ;
+}
+#order 
+{
+    margin-left: auto ;
+    margin-right: auto ;
+    display: block ;
+}
+fieldset
+{
+    width: 80% ;
+    border: 4px solid black ;
+    background-color: rgb(255,255,255,0.6);
+    margin-top: 5% ;
+    margin-left: auto ;
+    margin-right: auto ;
+    display: block ;
+}
+h1
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px ;
+    margin-left: 5%;
+}
+legend
+{
+    font-weight: bold ;
+    background-color: rgb(148,70,51,0.7);
+    border: 4px solid black ;
+    width: 40% ;
+    font-size: 80px;
+    font-style: italic ;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    text-align: center ;
+}
+input[type=text]
+{
+    width: 90% ;
+    height: 35px;
+    font-size: 25px ;
+    border: 3px solid black;
+    margin-left: 5% ;
+    background-color: white ;
+}
+input[type=email]
+{
+    width: 90% ;
+    height: 30px;
+    font-size: 25px ;
+    border: 3px solid black;
+    margin-left: 5% ;
+    background-color: white ;
+}
+#big
+{
+    width: 90% ;
+    height: 720px ;
+    margin-left: auto ;
+    margin-right: auto ;
+    display: block ;
+}
+input[type=checkbox]
+{
+    clear: both;
+    float: left ;
+    width: 5% ;
+    height: 50px ; 
+    margin-left: 5% ;
+    margin-top: 2.8% ;
+}
+#h
+{   
+    float: left ;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 30px ;
+    width: 40% ;
+    text-align: center ;
+    margin-top: 3.5% ;
+    margin-left: 3% ;
+}
+#c
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    font-size: 30px ;
+    width: 20% ;
+    text-align: center ;
+    margin-top: 2.5%;
+    float: left ;
+}
+input[name=order]
+{
+    float: left ;
+}
+input[type=radio]
+{
+    float: left ;
+    width: 8% ;
+    height: 50px;
+    margin-left: 5% ;
+    margin-top: 2% ;
+    background-color: blueviolet;
+}
+input[type=submit]
+{
+    width: 20% ;
+    height: 70px;
+    font-size: 40px ;
+    border-radius: 70px ;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold ;
+    border: 3px solid black;
+    background-color: rgb(196,31,37,0.7) ;
+    margin-top: 2% ;
+    margin-bottom: 2% ;
+    margin-left: 43% ;
+}
