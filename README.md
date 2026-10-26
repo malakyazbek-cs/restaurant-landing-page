@@ -63,8 +63,4 @@ I started by creating the page structure with HTML, then added the layout and vi
 
 <h3>Project Demo</h3>
 
-<p>
-  <a href="video_of_project.mp4">
-    View the project demo video
-  </a>
-</p>
+https://github.com/user-attachments/assets/79e10772-6bb0-4a4f-9bbb-f535667eae07
